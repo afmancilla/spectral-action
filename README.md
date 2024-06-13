@@ -3,7 +3,7 @@
 This action uses [Spectral](https://github.com/stoplightio/spectral) from [Stoplight](https://stoplight.io/) to lint your OpenAPI documents, or any other JSON/YAML files.
 
 ![](./image.png)
-2
+23
 ## Usage
 
 See [action.yml](action.yml)
