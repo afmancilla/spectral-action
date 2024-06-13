@@ -11,7 +11,7 @@ jobs:
       - name: Test this action against an incorrect file.
         id: expect-failure
         continue-on-error: true
-        uses: ./
+        uses: stoplightio/spectral-action@latest
         with:
           file_glob: ./fixtures/*.yml
           spectral_ruleset: .spectral.json
